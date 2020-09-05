@@ -9,7 +9,7 @@ class sample_app_config(AppConfig):
     verbose_name = 'sample_app'
 ```
 
-## Add app into Settings py
+# Add app into Settings py
 
 ```
 ...
