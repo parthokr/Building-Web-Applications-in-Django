@@ -1,5 +1,5 @@
 # Creating app config file
-## apps.py should look like
+## **apps.py** should look like
 > Assume your app name is **sample**
 ```
 from django.apps import AppConfig
@@ -9,7 +9,7 @@ class sample_app_config(AppConfig):
     verbose_name = 'sample_app'
 ```
 
-# Add app into Settings py
+# Add app into **settings.py**
 
 ```
 ...
