@@ -1,0 +1,7 @@
+{% extends 'tinker_django/base.html' %}
+{% block content %}
+<h1>Hello, world. cb59b747 is the polls index.</h1>
+    {% for q in latest_question_list %}
+        <a href={{q.id}}>{{ q.question_text }} </a>
+    {% endfor %}
+{% endblock %}
