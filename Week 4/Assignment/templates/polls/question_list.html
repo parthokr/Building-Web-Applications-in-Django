@@ -1,0 +1,10 @@
+{% extends "polls/base.html" %}
+
+{% block content %}
+    <h2>Questions</h2>
+    <ul>
+        {% for q in object_list %}
+            <li>{{ q.question_text }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
